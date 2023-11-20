@@ -14,20 +14,20 @@ public class Main {
         societe.ajouterEmploye(emp3);
         System.out.println("liste avant trie ");
         societe.displayEmploye();
-//        // Display the initial list
+//
 //        System.out.println("Initial List:");
 //        societe.displayEmploye();
 //
-//        // Test searching by name
+//
 //        String searchName = "Jane";
 //        System.out.println("Does the company have an employee named " + searchName + "? " + societe.rechercherEmploye(searchName));
 
-        // Test sorting by ID
+
         System.out.println("List after sorting by ID:");
         societe.trierEmployeParId();
         societe.displayEmploye();
 
-        // Test employee removal
+
 //        System.out.println("Removing employee with ID 2:");
 //        societe.supprimerEmploye(emp2);
 //        societe.displayEmploye();
